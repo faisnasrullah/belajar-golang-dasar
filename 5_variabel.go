@@ -18,6 +18,12 @@ func main() {
 	// cara ketiga (tanpa menggunakan kata kunci var)
 	country := "Indonesia"
 
+	// Deklarasi Multiple Variabel
+	var (
+		firstName = "Farid"
+		lastName  = "Afriyanto"
+	)
+
 	name = "Fais Nasrullah"
 	fmt.Println(name)
 	fmt.Println(email)
@@ -28,4 +34,6 @@ func main() {
 	country = "Singapore"
 	fmt.Println(name)
 	fmt.Println(country)
+
+	fmt.Println(firstName, lastName)
 }
