@@ -29,8 +29,18 @@ func main() {
 		"Python",
 		"Go",
 		"Dart",
-	}
+	} // here length is defined
 
 	fmt.Println(skills)
 	fmt.Println(len(skills))
+
+	// cara ketiga
+	hobbies := [...]string{
+		"Running",
+		"Watching a Movie",
+		"Swimming",
+	} // here length is inferred
+
+	fmt.Println(hobbies)
+	fmt.Println(len(hobbies))
 }
