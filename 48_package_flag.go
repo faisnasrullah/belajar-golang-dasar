@@ -9,6 +9,9 @@ import (
 	Package Flag
 	- berisikan fungsionalitas untuk memparsing command line argument
 	- https://golang.org/pkg/flag/
+
+	How to run
+	example : go run 48_package_flag.go -host=ampasdev -user=super007 -password=123007
 **/
 
 func main() {
